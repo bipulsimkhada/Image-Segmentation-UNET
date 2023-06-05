@@ -28,7 +28,7 @@ Data Set: https://drive.google.com/drive/folders/1jA2rIBqL8SwvZK6lJdGNXRM1IqESAr
 In this project, we used the dataset containing image with multiple nucleus and UNET archetecture is implemented to segment necleus only. We have original image and masked image and we trained our data to learn how nucleus look and use the model to recognize the location of nucleus in the image.  Here are the steps involved:
 * Mount Google Drive and load data. 
 * Create Custom Metric - Intersection over Union (IoU)
-* * Build U-Net Model
+* Build U-Net Model
 * Compile and train the model
 * Predicting masks in training data
 * Predicting maks in test data. 
